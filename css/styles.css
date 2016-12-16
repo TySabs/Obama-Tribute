@@ -1,0 +1,93 @@
+body {
+  margin-top: 40px;
+}
+
+/* Classes */
+
+.banner-quote {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.main {
+  font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
+}
+
+.mainList{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+}
+
+.pbanner {
+  font-family: "Arial Black",Gadget,sans-serif;
+}
+
+.timeline-list {
+  margin-bottom: 30px;
+}
+
+/* IDs */
+#jumbo {
+  margin-bottom: 2em;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  border-top: 1px;
+  border-top-style: solid;
+  border-top-color: #9DA4B2;
+  padding-top: 5px;
+  text-align: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#lastUpdate{
+  text-align: right;
+}
+
+.main-photo {
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timeline-head {
+  padding-top: 30px;
+  text-align: center;
+}
+
+#wiki {
+  text-align: center;
+  padding-top: 40px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 510px) {
+  .pbanner {
+    font-size: 24px;
+  }
+
+  .banner-quote {
+    font-size: 24px;
+  }
+
+  .timeline-head {
+    font-size: 22px;
+  }
+
+  .footer-quote: {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  .pbanner {
+    font-size: 22px;
+  }
+}
